@@ -1,0 +1,37 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.all_classify .acb{display:none}
+
+.common_bgc{background:#f2f2f2;padding-bottom:20px;}
+.footer{margin-top:0;}
+
+.pay{width:990px;margin:auto;}
+.order_list{width:930px;margin:auto;}
+.order_list .ct,.order_list .cb{padding:10px 0;line-height:22px;}
+.order_list .ct{border-bottom:1px solid #ddd}
+.order_list .ct strong{color:#ff5a5e;font-size:16px;}
+.order_list .fr{margin-top:-16px;}
+.pay_main{border-top:2px solid #4b5a77;padding:0 20px;background:white;padding-bottom:10px;position:relative;}
+.pay_main .ct{padding:16px 0 20px 0;font-size:18px;color:#666}
+.pay_main .selection strong{background:url(../images/zhifub1.jpg) no-repeat;width:174px;height:60px;display:block;border:2px solid #e3393c;margin-top:10px}
+.pay_main .selection strong b{background:url(../images/selected.jpg) no-repeat right bottom;display:block;width:100%;height:100%;}
+.pay_main .cc{border:2px solid #afc2e0;padding:40px 50px;position:relative;}
+.pay_main .cc .pay_num{position:absolute;right:10px;top:10px}
+.pay_main .cc .pay_num strong{color:#ff5a5e;font-size:16px;}
+
+.pay_main .cc .type_btns{overflow:hidden;}
+.pay_main .cc .type_btns strong{width:174px;height:60px;display:block;margin-top:10px;margin-right:10px;border:1px solid #ddd;float:left;}
+.pay_main .cc .type_btns .paytype_1{background:url(../images/zhifub1.jpg) no-repeat;}
+.pay_main .cc .type_btns .paytype_2{background:url(../images/zhifub2.jpg) no-repeat;}
+
+.pay_main .way{border-bottom:1px solid #ddd;height:34px;line-height:34px;margin:10px 0;}
+.pay_main .way span{border:1px solid #ddd;padding:0 24px;border-radius:4px 4px 0 0;float:left;margin-top:-1px;margin-right:10px;background:white;}
+.pay_main .way .active{border-bottom:1px solid white}
+.pay_main .bank_list{overflow:hidden;width:800px;margin:auto;}
+.pay_main .bank_list li{border:1px solid #ddd;float:left;margin:5px;}
+.pay_main .bank_list .last{background:#d7f1fe;border;1px solid #e8f7fe;line-height:42px;text-align:center;width:188px;color:#2ca8e8;font-size:14px;}
+.pay_main .atonce{margin:20px 60px;}
+.pay_main .atonce a{position:relative;top:0;left:0;width:220px;height:50px;display:block;}
+.pay_main .atonce a b{position:absolute;top:0;left:0;background:url(../images/atonce.jpg) no-repeat;display:block;width:100%;height:100%}
+.pay_main .opinion{position:absolute;background:url(../images/opinion.jpg) no-repeat;width:57px;height:149px;top:25px;right:-57px;}

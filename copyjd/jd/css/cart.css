@@ -1,0 +1,39 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.all_classify .acb{display:none}
+
+.cart_layout{width:990px;margin:auto;}
+.cart_layout .title{font-size:18px;color:#333;font-weight:400;margin:10px 0;}
+.cart_layout .cart_empty{width:360px;height:55px;margin:150px auto;text-indent:80px;white-space:nowrap;background:url(../images/cart_empty.jpg) no-repeat left;}
+.cart_layout .cart_empty p{margin-bottom:16px;}
+.cart_layout .cart_empty a{color:#005ea6;}
+.cart_layout .cart_main table{width:100%;border-collapse: collapse; border-spacing: 0;}
+.cart_layout .cart_main .table_title{background:#f3f3f3;border:1px solid #ddd;}
+.cart_layout .cart_main .table_title td{padding:10px;}
+.cart_layout .cart_main .table_title input{vertical-align:middle}
+
+.cart_layout .cart_main .special{margin:11px;}
+.cart_layout .cart_main .special input{vertical-align:middle}
+.cart_layout .cart_main .special span{background:#e23839;color:white;padding:2px 4px;border-radius:2px;}
+
+.cart_layout .cart_main .table_list{border:1px solid #ddd;border-top:2px solid #aaaaaa}
+.cart_layout .cart_main .table_list td{vertical-align:top;border-bottom:1px solid #ddd}
+.cart_layout .cart_main .table_list input{vertical-align:top}
+.cart_layout .cart_main .table_list tr{background:#fff4e8}
+.cart_layout .cart_main .table_list tr td{padding:10px}
+.cart_layout .cart_main table .tcenter{text-align:center}
+.cart_layout .cart_main .cart_number {overflow:hidden;}
+.cart_layout .cart_main .cart_number div,.cart_layout .cart_main .cart_number input{border:1px solid #ddd;height:20px;line-height:20px;background:white;text-align:center;margin-right:-1px;}
+.cart_layout .cart_main .cart_number div{float:left;width:16px;}
+.cart_layout .cart_main .cart_number input{float:left;width:44px;}
+
+.summary{border:1px solid #ddd;margin:10px 0;}
+.summary input{vertical-align:middle}
+.summary td{padding:10px;height:30px}
+.summary .btn{position:relative;}
+.summary .btn b{width:96px;height:52px;background:url(../images/summary.jpg);display:block;position:absolute;top:-1px;right:-1px}
+
+.discount{position:relative;border:1px solid #ddd;margin-top:38px;padding:20px 24px;}
+.discount .tit{background:white;position:absolute;border:1px solid #ddd;border-bottom:none;height:28px;width:96px;text-align:center;color:#e3393a;line-height:28px;top:-29px;left:-1px;}
+.discount li{padding-left:10px;background:url(../images/discount.jpg) no-repeat left;line-height:22px;}

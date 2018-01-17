@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*html5*/
+article,aside,dialog,footer,header,section,footer,nav,figure,menu{display:block}
+
+/* ===============
+ * 重新定义Html元素
+ * =============== */
+body { font: normal normal  12px/1.5 arial,"Microsoft YaHei","Hiragino Sans GB",sans-serif; color: #333;}
+html, body, div, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, fieldset, input { padding: 0; margin: 0;}
+h1, h2, h3, h4, h5, h6, pre, code, address, caption, cite, code, em, table, th, td { font-size: 12px; font-weight: normal;}
+strong { font-weight: bold;}
+ul, ol { list-style: none outside none;}
+fieldset, img { border: medium none;}
+caption, th {  text-align: left;}
+table { border-collapse: collapse; border-spacing: 0;}
+
+input, select, textarea { }
+a { outline: medium none;color:#333;}
+a:link, a:visited, a:active { text-decoration: none;}
+a:hover { text-decoration: none;}
+i, cite, em { font-style: normal;}
+.layout {width:1000px;margin: 0 auto;}
+.fl{float:left;}
+.fr{float: right;}
+.bodybg{background: #eef1f2;}
+.leftside{width:735px;float: left;}
+.rightside{width:250px;float: right;}
+.mgb20{margin-bottom:20px;}
+.mgt20{margin-top:20px;}
+.pdt25{padding-top:25px;padding-bottom:25px;}
+.but1{width:87px;height: 32px;line-height: 32px;background: #ff5b00;color:#fff;display: inline-block;text-align: center;}
+.but2{width:87px;height: 32px;line-height: 32px;background: #32a5e7;color:#fff;display: inline-block;text-align: center;}
+

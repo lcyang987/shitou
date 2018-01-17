@@ -1,0 +1,125 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.header{border-bottom:1px solid #e5e5e5;}
+
+.classify .c_bgc,.classify .c_main {display:none;}
+.classify:hover .c_bgc,.classify:hover .c_main{display:block;}
+
+.detail_layout{margin-bottom:20px;position:relative;width:1150px;}
+.detail_layout .layout{margin-top:10px;overflow:hidden;width:1150px;}
+.detail_layout .location{margin-left:34px;}
+
+.preview{float:left}
+.preview img{width:100%;height:100%;}
+.preview .pre_b{width:418px;height:418px;border:2px solid #f3f3f3;position:relative;margin-bottom:10px;}
+.preview .pre_b a{position:absolute;right:20px;top:-1px;width:40px;height:42px;}
+.preview .pre_b .gfzs{background:url(../images/preview_special.png) no-repeat;}
+.preview .pre_s a{border:2px solid transparent;width:60px;height:60px;float:left;margin:0 10px;}
+.preview .pre_s .active{border-color:black;}
+.detail_layout,.intro,.preview .pre_s {*zoom:1; }
+.detail_layout:after,.intro:after,.preview .pre_s:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+
+.intro{float:left;width:510px;margin-left:30px;border-right:1px solid #f2f2f2;padding-right:27px;}
+.intro dl dd,.intro dl dt{float:left}
+.intro dt{width:69px;}
+.intro li{float:left;}
+.intro div{margin-bottom:8px;}
+.intro div,.intro dl,.intro ul{clear:both;overflow:hidden;}
+.intro .title h1{font-size:16px;font-weight:bold}
+.intro .title p{font-size:14px;color:#dd2727}
+.intro .p_info{background:url(../images/info_bg.png) no-repeat;line-height:30px;margin-left:-10px;padding-left:10px;}
+.intro .p_sale strong{font-size:30px;color:#c40000}
+.intro .p_sale .special_price{background:#f47a86;color:white;position:relative;height:16px;line-height:16px;padding:0 4px;top:6px;left:10px;}
+.intro .p_sale .special_price b{width:0;height:0;border:6px solid transparent;border-bottom-color:#f47a86;position:absolute;left:-6px;bottom:0;}
+.intro .p_activity dd{color:#b56119}
+.intro .freight strong{cursor:pointer;}
+.intro .panel{border:dotted #c9c9c9;border-width:1px 0;padding:10px;padding-right:0;margin-left:-10px;margin-right:-1px;overflow:hidden;}
+.intro .panel ul{width:512px;}
+.intro .panel li{width:50%;border-right:1px solid #c9c9c9;text-align:center;margin-left:-1px;cursor:pointer;}
+.intro .panel li strong{color:#c40000}
+
+
+.intro dt{color:#838385}
+.intro .select dt{padding-top:10px;}
+.intro .select dd{width:440px;}
+.intro .select li{padding:3px 10px;border:1px solid #ddd;margin:6px 6px 0 0;cursor:pointer}
+.intro .select ul .on{border:2px solid #be0004;padding:2px 9px;background:url(../images/select.png) no-repeat right bottom;}
+.intro .num{line-height:32px;}
+.intro .num input{width:36px;height:16px;padding:7px 0 7px 4px;vertical-align:middle;margin-right:30px;border:1px solid #a7a6ac;float:left;}
+.intro .num b{display:block;width:16px;height:12px;position:absolute;right:20px;border:1px solid #a7a6ac;cursor:pointer}
+.intro .num .t{background:url(../images/s_t.jpg) no-repeat center;top:0}
+.intro .num .b{background:url(../images/s_b.jpg) no-repeat center;bottom:0;}
+.intro .num .now{position:relative;width:85px;height:32px;}
+
+.intro .btn{margin-top:20px;}
+.intro .btn div{width:178px;height:38px;border:2px solid #c40002;line-height:38px;text-align:center;float:left;clear:none;cursor:pointer;}
+.intro .btn .buy{color:#c40002;font-size:18px;margin-left:69px;margin-right:10px;}
+.intro .btn .add_cart{color:white;background:#c40002}
+
+.recommend{width:190px;float:left}
+.recommend .tit{background:#098e23;border-radius:2px;;color:white;float:left;width:100%;position:relative;text-indent:10px;height:25px;line-height:25px;}
+.recommend .tit a{padding-right:15px;;background:url(../images/more.jpg) no-repeat right;color:white;position:absolute;right:10px;top:0}
+.recommend .ct{border:1px solid #ccc;border-bottom:none;overflow:hidden;}
+.recommend .ct a{border-bottom:1px solid #ccc;float:left;overflow:hidden;padding:3px;}
+.recommend .ct .p_totalsale,.recommend .ct .p_evaluate{color:#999}
+.recommend .ct .p_price{font-size:18px;color:#ce0203}
+.recommend .ct .p_name{overflow:hidden;height:38px;}
+.recommend .ct .p_totalsale b{color:#c99b77;}
+.recommend .ct .p_evaluate b{color:#3289be}
+
+.detail_main{width:790px;float:left;margin-left:10px;}
+.detail_main .tab{height:48px;line-height:46px;;border:1px solid #e6e6e6;border-bottom-width:2px;}
+.detail_main .tab li{float:left;border-width:2px 1px 0 1px;border-style:solid;border-color:transparent;margin-left:-2px;padding-left:2px;padding-bottom:1px;position:relative}
+.detail_main .tab .active{border-color:#b00002 #cfbfb0 transparent #cfbfb0;padding-right:1px;background:white;margin-top:-1px;line-height:48px;height:46px;}
+.detail_main .tab li a{border-right:1px dotted #ccc;padding:0 20px;}
+.detail_main .tab .active a{border-right:none}
+.detail_main .tab li b{display:none;}
+.detail_main .tab .active b{display:block;border:6px solid transparent;border-top-color:#b00002;top:0;left:50%;margin-left:-6px;width:0;height:0;position:absolute}
+.detail_main .mc .cl{display:none}
+.detail_main .mc .active{display:block;}
+.detail_main .cl .mt{margin-top:16px;}
+.detail_main .cl_t{height:64px;padding:13px;border:1px solid #ddd;border-top:none;}
+.detail_main .cl_t dd{float:left;width:25%;margin-top:24px;text-align:center;}
+.detail_main .cl_t dt{float:left;width:116px;text-align:center;border-right:1px dotted #ddd}
+.detail_main .cl_t dt strong{display:block;color:#fe6601;font-size:30px;line-height:32px;}
+.detail_main .cl_t span{width:55px;height:12px;display:inline-block;*display:inline;*zoom:1;background:url(../images/star.png) repeat-x 0 -12px;overflow:hidden;}
+.detail_main .cl_t span b{width:44px;height:12px;float:left;background:url(../images/star.png) repeat-x 0 1px}
+.detail_main .cl_c .user_pic{width:60px;height:60px;border-radius:50%;}
+.detail_main .cl_c .user_name{width:60px;text-align:center;}
+.detail_main .cl_c tr{}
+.detail_main .cl_c td{vertical-align:top;border-bottom:1px solid #ddd;padding:10px 0;}
+.detail_main .cl_c .evaluate .user_photo{margin-top:10px;}
+.detail_main .cl_c .evaluate .user_photo a{display:inline-block;*display:inline;*zoom:1;border:1px solid #f2f2f2;margin-right:8px;}
+.detail_main .cl_c .evaluate .user_photo img{width:40px;height:40px;border:1px solid white;}
+.detail_main .cl_c .evaluate .merchant{margin:10px 0;padding-top:10px;border-top:1px dotted #ddd}
+.detail_main .cl_c .evaluate .merchant div{color:#b9afb0}
+.detail_main .consult{}
+.detail_main .consult table{width:100%;margin-top:20px;padding-bottom:20px;border-bottom:1px solid #e3e3e3;display:block;}
+.detail_main .consult table .gray{color:gray;}
+.detail_main .consult table .darkgoldenrod{color:darkgoldenrod;}
+.detail_main .consult table td{padding:6px 0;}
+.detail_main .record{width:100%;text-align:center;border-spacing:0;border-collapse:collapse;margin-bottom:-1px;border:1px solid #ddd;margin-top:10px;}
+.detail_main .record thead td{background:#f7f7f7;height:30px;}
+.detail_main .record tbody td{padding:10px 0;border-bottom:1px dotted #ddd}
+.detail_main .record td .time{color:#9a9899}
+
+
+.seeandsee{width:140px;position:absolute;top:28px;right:0;}
+.seeandsee .tit{text-align:center;position:relative;height:18px;}
+.seeandsee .tit b,.seeandsee .tit i{width:40px;display:block;border-bottom:1px dotted #c9c9c9;position:absolute;bottom:7px;}
+.seeandsee .tit b{left:0}
+.seeandsee .tit i{right:0}
+.seeandsee a{position:relative;display:block;width:140px;height:140px;margin-top:10px;}
+.seeandsee a img{width:100%;height:100%;}
+.seeandsee p{position:absolute;bottom:0;left:0;width:100%;height:20px;line-height:20px;background:white;opacity:0.85;filter:alpha(opacity=85);text-align:center;color:black}
+
+
+.b_page{margin:30px 0 10px;text-align:right}
+.b_page div{display:inline-block;*display:inline;*zoom:1;vertical-align:middle;}
+.b_page .pages{margin-right:6px;}
+.b_page .pages a{border:1px solid #e5e5e5;padding:9px;color:#2953a7;float:left;margin-left:-1px;}
+.b_page .now_page input{width:40px;height:16px;padding:0;margin:0;*line-height:16px;}
+.b_page .now_page .confirm{height:18px;}
+.b_page .pages .disable{background:#efefef;color:#9a9a9a;}
+.b_page .pages .other{border:none;}

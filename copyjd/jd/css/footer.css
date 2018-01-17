@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+
+.footer{margin-top:16px;}
+.footer .declare{text-align:center;height:54px;padding:20px 0;background:#F5F5F5;margin-bottom:16px;}
+.footer .declare img{margin:0 18px;padding:0 18px;}
+.footer dl{width:160px;overflow:hidden;float:left;padding-right:30px;}
+.footer dt{font-size:16px;margin-bottom:10px;}
+.footer dl a{display:block;line-height:20px;}
+.footer .coverage{float:right;width:230px;height:168px;background:url(../images/coverage.png) no-repeat;}
+.footer .coverage p{padding:6px 20px}
+.footer .coverage .tit{font-size:16px;}
+.footer .coverage p a{float:right;}
+.footer .links{text-align:center;margin-top:24px;padding:16px 0;border-top:1px solid #E5E5E5}
+.footer .links a{padding:0 16px;}

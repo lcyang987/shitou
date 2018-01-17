@@ -1,0 +1,41 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+body { font: normal 12px/1.5 "Microsoft YaHei",arial,"Hiragino Sans GB",sans-serif; color: #333;}
+html, body, div, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, fieldset, input { padding: 0; margin: 0;}
+h1, h2, h3, h4, h5, h6, pre, code, address, caption, cite, code, em, table, th, td { font-size: 12px; font-weight: normal;}
+strong { font-weight: bold;}
+ul, ol ,li{ list-style: none outside none;}
+
+fieldset, img { border: medium none;}
+caption, th {  text-align: left;}
+/*table { border-collapse: collapse; border-spacing: 0;}*/
+a { outline: medium none;color:#666;}
+a:link, a:visited, a:active { text-decoration: none;}
+a:hover { text-decoration: none;}
+i, cite, em { font-style: normal;}
+.pr{position:relative;}
+.fl{float:left}
+.fr{float:right}
+a img{vertical-align:middle;}
+.layout{width:1210px;margin:auto;}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+a:hover{color:#C81623}
+
+.toolbar_bg{background:#7a6e6e;width:6px;position:fixed;top:0;right:0;height:100%;}
+.toolbar{position:fixed;height:180px;top:50%;right:0;margin-top:-90px;z-index:10;}
+.toolbar .tool,.toolbar_another .tool{position:relative;width:34px;height:35px;margin-left:1px;z-index:2;margin-bottom:1px;}
+.toolbar .tool .icon,.toolbar_another .tool .icon{width:100%;height:100%;background:url(../images/tool_icon.png) no-repeat #7a6e6e;position:relative;z-index:1;border-radius:3px 0 0 3px;transition:0.3s ease;}
+.toolbar .t1 .icon{background-position:-50px 0;}
+.toolbar .t2 .icon{background-position:-50px -50px;}
+.toolbar .t3 .icon{background-position:-50px -100px;}
+.toolbar .t4 .icon{background-position:-190px -150px;}
+.toolbar .t5 .icon{background-position:-50px -150px;}
+.toolbar_another{position:fixed;bottom:-1px;right:0;height:72px;z-index:11}
+.toolbar_another .t6 .icon{background-position:-50px -250px;}
+.toolbar_another .t7 .icon{background-position:-50px -300px;}
+
+.toolbar .tt,.toolbar_another .tt{position:absolute;width:64px;height:35px;top:0;right:-30px/*32px*/;line-height:35px;background:#7a6e6e;color:white;text-align:center;   border-radius:3px 0 0 3px;transition:0.3s ease;}
+
+.fixed_r .active .tt{right:32px;background:#c81623}
+.fixed_r .active .icon{background-color:#c81623}

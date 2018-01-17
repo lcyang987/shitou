@@ -1,0 +1,68 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.header{border-bottom:1px solid #e5e5e5;}
+
+.classify .c_bgc,.classify .c_main {display:none;}
+.classify:hover .c_bgc,.classify:hover .c_main{display:block;}
+
+.order_layout{width:1190px;margin:auto;}
+.order_layout .title{font-size:24px;color:#333;font-weight:400;margin:20px 0 40px 0;position:relative}
+.order_layout .title img{position:absolute;right:0;top:0;}
+.order_main{width:990px;}
+
+.order_main .list .address_layout{overflow:hidden;}
+.order_main .list .my_address{width:207px;height:76px;padding:15px;background:url(../images/notselect.jpg) no-repeat;float:left;margin:10px 10px 0 0;}
+.order_main .list .my_address .info{border-bottom:1px solid #ddd;padding-bottom:3px;margin-bottom:3px;}
+.order_main .list .my_address .info strong{font-weight:normal}
+.order_main .list .my_address .specific{overflow:hidden;height:38px;}
+.order_main .list .my_address .btn a{color:#ce9977;display:none;}
+.order_main .list .my_address:hover .btn a{display:block}
+.order_main .list .on{background:url(../images/select.jpg) no-repeat;}
+.order_main .list .operation{position:relative;margin:10px 0;}
+.order_main .list .operation a{color:#cb9976}
+.order_main .list .operation .manage{position:absolute;right:10px;top:0}
+.order_main .list ul{overflow:hidden;border-bottom:1px solid #ddd;padding-bottom:20px;margin-bottom:20px;}
+.order_main .list li{float:left;width:250px;}
+.order_main .list li input{margin-right:10px;}
+.order_main .list li input,.order_main .list li img{vertical-align:middle}
+.order_main .list .tit{font-weight:bold;font-size:14px;margin-bottom:10px;}
+.order_main .invoice .need{position:relative;margin-bottom:10px;}
+.order_main .invoice .need i{position:absolute;left:30px;top:0 }
+.order_main .invoice .need input{vertical-align:middle;margin-right:10px;}
+.order_main .invoice .invoice_title{margin-left:30px;margin-bottom:10px;}
+.order_main .invoice .btn{margin-left:80px;}
+
+.table_title,.table_list{width:100%}
+.table_title{border-collapse:separate;color:#999}
+.table_title td{border-bottom:3px solid #b2d1ff;border-left:1px solid transparent;border-right:1px solid transparent;}
+.table_list .number{width:68px;}
+.table_list .number div{float:left;width:11px;height:11px;text-align:center;line-height:11px;border:1px solid #ccc;cursor:pointer;margin-top:3px}
+.table_list .number input{float:left;width:34px;height:13px;padding:2px 0;border:1px solid #ccc;margin:0 3px;text-align:center;}
+.table_list{background:#fbfcff;border-bottom:1px solid #b2d1ff}
+.table_list td{padding:14px 0 7px 0;border-bottom:1px solid #e5e5e5}
+.table_list .p_price{color:#cc0100;font-weight:bold;}
+.table_summary{background:#f2f6ff;width:100%}
+.table_summary td{padding:10px;line-height:26px}
+.table_summary td .words{width:240px}
+.table_summary td p{color:#999b9a}
+.table_summary .s_price p{color:#333}
+.table_summary .optional input{margin-left:10px;}
+.table_summary .optional strong{color:#cc0200;margin-left:10px;}
+.table_summary .optional p{margin-left:60px;}
+.table_pay{width:100%;margin-bottom:30px;}
+.table_pay td{vertical-align:top;padding:10px;line-height:26px;}
+.table_pay td i{background:#eee;padding:2px 4px;margin-right:6px;}
+.table_pay td strong{color:#b20000;font-size:22px;margin-left:60px;}
+.pay_price{text-align:left;position:relative;vertical-align:middle}
+.pay_price strong{position:absolute;right:0;top:0}
+.table_pay button{width:182px;height:37px;line-height:37px;color:white;background:#b20000;border:none;padding:0;margin:0;margin-top:10px;font-size:14px;font-weight:bold}
+
+
+/*----------new_address------------*/
+.new-address th {width: 116px; padding: 10px 3px; text-align: left;}
+.new-address td {padding: 10px 3px;}
+.new-address th em {color: #ff4478; padding: 0 3px 0 20px}
+.new-address .inputstyle,.new-address .x-input {width: 128px; border: 1px solid #ddd; height: 26px; line-height: 26px; text-indent: 5px; margin-right: 10px;}
+.new-address .x-input {width: 170px;}
+.new-address button {width: 114px; height: 30px; line-height: 30px; color: #fff; border: none; border-radius: 4px; background: #b20000; text-align: center; cursor: pointer;}
